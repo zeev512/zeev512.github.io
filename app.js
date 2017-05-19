@@ -19,9 +19,8 @@
                 }
                 if ( empty )
                     $scope.message = 'Please enter data first';
-            }
-            else if ( lunchItems.length == 0 ) {
-                $scope.message = 'Please enter data first';
+                else
+                    $scope.message = 'Enjoy!';
             }
             else if ( lunchItems.length < 4 ) {
                 $scope.message = 'Enjoy!';
